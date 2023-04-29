@@ -1,4 +1,4 @@
- # Olá, me chamo Lucas e bem-vindo ao meu perfil do Github! WIP ( Work in Progress ) 
+ # Olá, me chamo Lucas e bem-vindo ao meu perfil do Github! 
 
 - Sou um Analista de Testes com sólida experiência na área de Qualidade de Software, com conhecimentos em diversas linguagens de programação e ferramentas de automação de testes, sou formado em Análise e Desenvolvimento de Sistemas e mirando em um futuro não tão distante com o tão sonhado Mestrado! 
 
@@ -22,15 +22,15 @@
 
 - 🛠 Frameworks: Laravel, Lumen, React-Native, Bootstrap e RobotFramework;
 
-- 🦾 Trabalho em equipe: Sou um profissional colaborativo, capaz de trabalhar em equipe e ajudar os colegas sempre que necessário.
+- 🦾 Trabalho em equipe: Sou um profissional colaborativo, capaz de trabalhar em equipe e ajudar os colegas sempre que necessário;
 
-- 🔧 Ferramentas: Tenho amplo conhecimento no Postman, Dbeaver, VSCode, Git, Stopligth, Docker, Azure Devops entre outras que sempre usamos no dia-a-dia de um QA.
+- 🔧 Ferramentas: Tenho amplo conhecimento no Postman, Dbeaver, VSCode, Git, Stopligth, Docker, Azure Devops entre outras que sempre usamos no dia-a-dia de um QA;
 
-- 🖱 Sistemas Operacionais: Windows, Linux, MacOS, Android e IOS
+- 🖱 Sistemas Operacionais: Windows, Linux, MacOS, Android e IOS;
 
-- ✏ Metodologias: Scrum e Kambam
+- ✏ Metodologias: Scrum e Kambam;
 
-- 📗 Arquiteturas: MVC e APIRest 
+- 📗 Arquiteturas: MVC e APIRest;
 
 ## Contatos:
 
