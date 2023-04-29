@@ -28,7 +28,7 @@
 
 - 🖱 Sistemas Operacionais: Windows, Linux, MacOS, Android e IOS;
 
-- ✏ Metodologias: Scrum e Kambam;
+- ✏ Metodologias: Scrum, Kambam CI/CD;
 
 - 📗 Arquiteturas: MVC e APIRest;
 
