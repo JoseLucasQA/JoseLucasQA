@@ -2,6 +2,16 @@
 
 - Sou um Analista de Testes com sólida experiência na área de Qualidade de Software, com conhecimentos em diversas linguagens de programação e ferramentas de automação de testes, sou formado em Análise e Desenvolvimento de Sistemas e mirando em um futuro não tão distante com o tão sonhado Mestrado! 
 
+<div>
+    <a href="https://github.com/JoseLucasQA">
+        <img height="180em"
+             src="https://github-readme-stats.vercel.app/api/top-langs/?username=JoseLucasQA&layout=compact&langs_count=7&theme=dracula"/>
+        <img height="180em" 
+             src="https://github-readme-stats.vercel.app/api?username=JoseLucasQA&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+</div>
+    
+![Snake animation](https://github.com/JoseLucasQA/JoseLucasQA/blob/output/github-contribution-grid-snake.svg)
+
 # Minhas competências
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original-wordmark.svg" width="40" height="40"/>                                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original-wordmark.svg" width="40" height="40"/>                                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg" width="40" height="40"/>                                       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"  width="40" height="40"/>                                                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/composer/composer-original.svg" width="40" height="40"/>                                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" width="40" height="40"/> 
@@ -32,7 +42,7 @@
 
 - 📗 Arquiteturas: MVC e APIRest;
 
-## Contatos:
+## Contatos
 
 <div>
     <a href="https://www.instagram.com/jlucas.msantos/" target="_blank">
@@ -45,5 +55,3 @@
         <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
     </a>   
 </div>
-
-![Snake animation](https://github.com/JoseLucasQA/JoseLucasQA/blob/output/github-contribution-grid-snake.svg)
