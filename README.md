@@ -1,6 +1,6 @@
- # Olá, me chamo Lucas e bem-vindo ao meu perfil do Github! 
+ # Hi, my name is Lucas and welcome to my Github profile!
 
-- Sou um Analista de Testes com sólida experiência na área de Qualidade de Software, com conhecimentos em diversas linguagens de programação e ferramentas de automação de testes, sou formado em Análise e Desenvolvimento de Sistemas e mirando em um futuro não tão distante com o tão sonhado Mestrado! 
+- I'm a Quality Analyst with solid experience in the area of ​​Software Quality, I have knowledge of several programming languages ​​and test automation tools and I'm graduated in Systems Analysis and Development.
 
 <div>
     <a href="https://github.com/JoseLucasQA">
@@ -12,7 +12,7 @@
     
 ![snake gif](https://github.com/JoseLucasQA/JoseLucasQA/blob/output/github-contribution-grid-snake-dark.svg)
 
-# Minhas competências
+# My Skills 
 
 <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/apache/apache-original.svg" width="40" height="40"/> <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/azure/azure-original.svg" width="40" height="40"/>
 <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/bootstrap/bootstrap-original.svg" width="40" height="40"/>
@@ -30,23 +30,23 @@
 <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/react/react-original.svg" width="40" height="40"/>
 <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/vscode/vscode-original.svg" width="40" height="40"/>
           
-- 😎 Analista de Testes: Possuo experiência em planejamento, elaboração e execução de testes em diferentes níveis, tais como testes unitários, de integração, de sistema e aceitação do usuário. Tenho experiência em homologações manuais e automatizadas, tanto frontend quanto backend;
+- 😎 Test Analyst: I have experience in planning, preparing and executing tests at different levels, such as unit, integration, system and user acceptance tests. I have experience in manual and automated approvals, both frontend and backend;
 
-- 👨‍💻 Linguagens: Tenho conhecimentos em C, PHP, JS, HTML, CSS, Python e MySQL, sendo capaz de desenvolver soluções em cada uma dessas linguagens;
+- 👨‍💻 Languages: I have knowledge in C, PHP, JS, HTML, CSS, Python and MySQL, being able to develop solutions in each of these languages;
 
-- 🛠 Frameworks: Laravel, Lumen, React-Native, Bootstrap e RobotFramework;
+- 🛠 Frameworks: Laravel, Lumen, React-Native, Bootstrap and RobotFramework;
 
-- 🦾 Trabalho em equipe: Sou um profissional colaborativo, capaz de trabalhar em equipe e ajudar os colegas sempre que necessário;
+- 🦾 Teamwork: I am a collaborative professional, capable of working in a team and helping colleagues whenever necessary;
 
-- 🔧 Ferramentas: Tenho amplo conhecimento no Postman, Dbeaver, VSCode, Git, Stopligth, Docker, Azure Devops entre outras que sempre usamos no dia-a-dia de um QA;
+- 🔧 Tools: I have extensive knowledge in Postman, Dbeaver, VSCode, Git, Stopligth, Docker, Azure Devops among others that we always use in a QA's day-to-day routine;
 
-- 🖱 Sistemas Operacionais: Windows, Linux, MacOS, Android e IOS;
+- 🖱 Operating Systems: Windows, Linux, MacOS, Android and IOS;
 
-- ✏ Metodologias Agéis: Scrum e Kambam;
+- ✏ Agile Methodologies: Scrum and Kambam;
 
-- 📗 Arquiteturas: MVC e APIRest;
+- 📗 Architectures: MVC and APIRest;
 
-## Contatos
+## Contacts
 
 <div>
     <a href="https://www.instagram.com/jlucas.msantos/" target="_blank">
