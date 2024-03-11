@@ -10,7 +10,7 @@
              src="https://github-readme-stats.vercel.app/api?username=JoseLucasQA&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
 </div>
     
-![snake gif](https://github.com/JoseLucasQA/JoseLucasQA/blob/output/github-contribution-grid-snake.svg)
+![snake gif](https://github.com/JoseLucasQA/JoseLucasQA/blob/output/github-contribution-grid-snake-dark.svg)
 
 # Minhas competências
 
