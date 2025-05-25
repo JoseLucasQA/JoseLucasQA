@@ -124,15 +124,6 @@
             margin-bottom: 1.5rem;
         }
 
-        .quote {
-            font-style: italic;
-            font-size: 0.85rem;
-            margin: 0.3rem 0 0.5rem 1rem;
-            padding-left: 0.7rem;
-            border-left: 3px solid #3498db;
-            color: #555;
-        }
-
         h3.skill-category {
             margin-top: 1rem;
             font-size: 1rem;
@@ -181,7 +172,7 @@
         }
 
         body.dark-theme .avatar {
-            border-color: #9b59b6;
+            border-color: #3498db;
             background: #222;
         }
 
@@ -193,7 +184,7 @@
 
         body.dark-theme .skill-tag,
         body.dark-theme .certification-badge {
-            background: #9b59b6;
+            background: #3498db;
         }
 
         body.dark-theme .contact-item a,
@@ -202,26 +193,10 @@
         }
 
         body.dark-theme a {
-            color: #9b59b6;
+            color: #3498db;
         }
 
         /* Botão de tema */
-        #themeToggle {
-            position: fixed;
-            top: 20px;
-            right: 150px;
-            background-color: #3498db;
-            color: white;
-            border: none;
-            border-radius: 8px;
-            padding: 10px 15px;
-            font-size: 14px;
-            cursor: pointer;
-            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-            z-index: 1000;
-            margin-right: 40px;
-        }
-
         #topButtons {
             position: fixed;
             top: 20px;
@@ -249,6 +224,15 @@
             flex-shrink: 0;
         }
 
+        .quote {
+            font-style: italic;
+            font-size: 0.9rem;
+            margin: 0.3rem 0 0.5rem 0;
+            padding-left: 0.7rem;
+            border-left: 3px solid #3498db;
+            color: #555;
+        }
+
         body.dark-theme .quote {
             color: #eee !important;
             border-left-color: #9b59b6 !important;
@@ -267,9 +251,12 @@
             color: #222;
         }
 
+        body.dark-theme .experience-content {
+            color: #ddd;
+        }
+
         .experience-item-accordion.open .experience-content {
             max-height: 500px;
-            /* altura suficiente para exibir o conteúdo */
             margin-top: 0.5rem;
         }
 
@@ -279,7 +266,7 @@
             user-select: none;
         }
 
-        body.dark-mode .experience-title {
+        body.dark-theme .experience-title {
             color: #fff !important;
         }
 
@@ -293,16 +280,6 @@
 
         .experience-item-accordion.open .experience-title i {
             transform: rotate(180deg);
-        }
-
-        .quote {
-            font-style: italic;
-            font-size: 0.9rem;
-            margin: 0.3rem 0 0.5rem 0;
-            padding-left: 0.7rem;
-            border-left: 3px solid #3498db;
-            color: #555;
-            /* deixei mais escuro e legível */
         }
     </style>
 </head>
@@ -412,7 +389,7 @@
                             <li>Introdução a Qualidade de Software - Digital Innovation One</li>
                             <li>Testes Unitários e TDD com PHPUnit - Udemy</li>
                             <li>Robot Framework - RoboCamp6 - QANinja</li>
-                            <li>Fundamentos da Programmação com PHP - EspecializaTI</li>
+                            <li>Fundamentos da Programação com PHP - EspecializaTI</li>
                             <li>PHP CSRs e Boas Práticas - EspecializaTI</li>
                             <li>Projetos Ágeis com Scrum - Digital Innovation One</li>
                             <li>Estrutura de Dados e Algoritmos - Digital Innovation One</li>
@@ -426,12 +403,12 @@
                 <div class="section">
                     <h2 class="section-title">Formação</h2>
                     <div class="education-item">
-                        <div class="company">UNINASSAU</div>
+                        <div class="institution">UNINASSAU</div>
                         <div class="date">2025-2026</div>
                         <p>Pós-graduação em Qualidade de Software</p>
                     </div>
                     <div class="education-item">
-                        <div class="company">Estacio</div>
+                        <div class="institution">Estacio</div>
                         <div class="date">2020-2022</div>
                         <p>Análise e Desenvolvimento de Sistemas</p>
                     </div>
@@ -513,35 +490,28 @@
             </div>
         </div>
     </div>
-</body>
 
-<script>
-    const themeToggle = document.getElementById('themeToggle');
-    const currentTheme = localStorage.getItem('theme');
+    <script>
+        const themeToggle = document.getElementById('themeToggle');
+        const currentTheme = localStorage.getItem('theme');
 
-    if (currentTheme === 'dark') {
-        document.body.classList.add('dark-theme');
-    }
-
-    themeToggle.addEventListener('click', () => {
-        document.body.classList.toggle('dark-theme');
-        if (document.body.classList.contains('dark-theme')) {
-            localStorage.setItem('theme', 'dark');
-        } else {
-            localStorage.setItem('theme', 'light');
+        if (currentTheme === 'dark') {
+            document.body.classList.add('dark-theme');
         }
-    });
 
-    document.getElementById('printBtn').addEventListener('click', function () {
-        window.print();
-    });
-
-    document.querySelectorAll('.experience-title').forEach(title => {
-        title.addEventListener('click', () => {
-            const accordion = title.parentElement;
-            accordion.classList.toggle('open');
+        themeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-theme');
+            localStorage.setItem('theme', document.body.classList.contains('dark-theme') ? 'dark' : 'light');
         });
-    });
-</script>
+
+        document.getElementById('printBtn').addEventListener('click', () => window.print());
+
+        document.querySelectorAll('.experience-title').forEach(title => {
+            title.addEventListener('click', () => {
+                title.parentElement.classList.toggle('open');
+            });
+        });
+    </script>
+</body>
 
 </html>
