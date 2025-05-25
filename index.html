@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <img src="./assets/images/avatar.jpeg" alt="José Lucas Matos dos Santos" class="avatar">
     <title>José Lucas - QA Analyst</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -33,140 +32,12 @@
         .header {
             background: #2c3e50;
             color: white;
-            padding: 2rem;
             text-align: center;
+            padding: 2rem 1rem;
+            border-radius: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
             margin-bottom: 2rem;
-        }
-
-        .main-content {
-            display: grid;
-            grid-template-columns: 3fr 1fr;
-            gap: 2rem;
-        }
-
-        .card {
-            background: white;
-            padding: 1.5rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            margin-bottom: 1.5rem;
-        }
-
-        /* Seção Habilidades - Novo Estilo */
-        .skills-list {
-            display: block;
-            margin: 0;
-            padding: 0;
-        }
-
-        .skills-list h4 {
-            color: #2c3e50;
-            font-size: 1rem;
-            margin: 1.5rem 0 0.5rem;
-            padding-bottom: 0.3rem;
-            border-bottom: 1px solid #eee;
-        }
-
-        .skills-list ul {
-            list-style-type: disc;
-            margin: 0 0 1rem 1.5rem;
-            padding: 0;
-            color: #666;
-        }
-
-        .skills-list li {
-            margin-bottom: 0.5rem;
-            font-size: 0.9rem;
-            line-height: 1.4;
-        }
-
-        .skill-category {
-            margin: 1.5rem 0 1rem;
-            color: #2c3e50;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 0.5rem;
-        }
-
-        .skill-tag {
-            background: #3498db;
-            color: white;
-            padding: 0.3rem 0.8rem;
-            border-radius: 20px;
-            font-size: 0.85rem;
-            margin: 0.2rem;
-            display: inline-block;
-        }
-
-        .experience-item {
-            border-left: 3px solid #3498db;
-            padding-left: 1rem;
-            margin-bottom: 1.5rem;
-        }
-
-        .quote {
-            font-style: italic;
-            color: #666;
-            margin-top: 1rem;
-            border-left: 3px solid #3498db;
-            padding-left: 1rem;
-        }
-
-        .education-item {
-            margin-bottom: 1.5rem;
-            padding: 0.5rem;
-            background: #f8f9fa;
-            border-radius: 5px;
-        }
-
-        .tools-list {
-            margin: 0.5rem 0;
-            font-size: 0.9rem;
-            color: #666;
-        }
-
-        @media (max-width: 768px) {
-            .main-content {
-                grid-template-columns: 1fr;
-            }
-
-            .skills-list ul {
-                margin-left: 1rem;
-            }
-
-            .skill-tag {
-                font-size: 0.8rem;
-            }
-        }
-
-        .about-list {
-            margin: 1.5rem 0;
-            list-style: none;
-        }
-
-        .about-list li {
-            margin-bottom: 1.5rem;
-            padding-left: 2rem;
             position: relative;
-        }
-
-        .about-list li::before {
-            content: "▹";
-            position: absolute;
-            left: 0;
-            color: #3498db;
-            font-weight: bold;
-        }
-
-        .certification-badge {
-            background: #2c3e50;
-            color: white;
-            padding: 0.3rem 0.8rem;
-            border-radius: 20px;
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            margin: 0.2rem;
-            font-size: 0.85rem;
         }
 
         .avatar {
@@ -174,35 +45,176 @@
             height: 150px;
             border-radius: 50%;
             object-fit: cover;
-            margin: 20px auto;
+            margin: -100px auto 20px;
             display: block;
-            border: 3px solid #2c3e50;
+            border: 4px solid #3498db;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
         }
 
-        /* Ajuste no header para incluir a foto */
-        .header {
-            position: relative;
-            padding-top: 100px;
-            /* Espaço para a foto */
-        }
-
-        /* Para borda colorida */
-        .avatar {
-            border: 3px solid #3498db;
-        }
-
-        /* Para efeito hover */
         .avatar:hover {
             transform: scale(1.05);
-            transition: 0.3s;
+        }
+
+        .columns {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .left-column,
+        .right-column {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .card,
+        .section {
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            margin-bottom: 2rem;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .card:hover,
+        .section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+        }
+
+        .contact-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .contact-item {
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+        }
+
+        .contact-item i {
+            margin-right: 0.5rem;
+            color: #3498db;
+        }
+
+        .contact-item a {
+            color: #2c3e50;
+            text-decoration: none;
+        }
+
+        .contact-item a:hover {
+            text-decoration: underline;
+        }
+
+        .skills-list {
+            margin-top: 1rem;
+        }
+
+        .skill-category {
+            margin-top: 1.5rem;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .skill-tag {
+            background: #3498db;
+            color: white;
+            padding: 0.4rem 0.9rem;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            margin: 0.3rem;
+            display: inline-block;
+        }
+
+        .skills-list ul {
+            list-style: disc;
+            margin-left: 1.5rem;
+            color: #666;
+        }
+
+        .skills-list li {
+            margin-bottom: 0.5rem;
+        }
+
+        .education-item,
+        .experience-item {
+            background: #f9f9f9;
+            padding: 1rem;
+            border-left: 4px solid #3498db;
+            border-radius: 12px;
+            margin-bottom: 1.5rem;
+        }
+
+        .experience-item ul {
+            padding-left: 1rem;
+        }
+
+        .quote {
+            font-style: italic;
+            color: #666;
+            margin-top: 0.3rem;
+        }
+
+        .about-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .about-list li {
+            position: relative;
+            padding-left: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .about-list li::before {
+            content: "▹";
+            position: absolute;
+            left: 0;
+            color: #3498db;
+        }
+
+        .certification-badge {
+            background: #2c3e50;
+            color: white;
+            padding: 0.4rem 0.8rem;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            margin: 0.3rem;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        @media (max-width: 768px) {
+            .avatar {
+                width: 120px;
+                height: 120px;
+            }
+
+            .section-title {
+                font-size: 1.3rem;
+            }
+
+            .columns {
+                flex-direction: column;
+            }
         }
     </style>
-
 </head>
 
 <body>
     <div class="container">
         <div class="header">
+            <img src="./assets/images/avatar.jpeg" alt="José Lucas Matos dos Santos" class="avatar">
             <h1 class="name">José Lucas Matos dos Santos</h1>
             <div class="position">Quality Assurance - Pleno</div>
         </div>
@@ -318,8 +330,8 @@
                 <div class="section">
                     <h2 class="section-title">Experiência Profissional</h2>
                     <div class="experience-item">
-                        <div class="company">Rodobank</div>
-                        <div class="date">2024 - Atual</div>
+                        <div class="company">Head de Qualidade - Rodobank</div>
+                        <div class="date">2021 até Atualmente </div>
                         <ul>
                             <li>Liderança Técnica e Gestão de Equipe</li>
                             <p class="quote">Coordenar e mentorar o time de QA, definindo métricas de qualidade e
