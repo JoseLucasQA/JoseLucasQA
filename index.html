@@ -253,6 +253,57 @@
             color: #eee !important;
             border-left-color: #9b59b6 !important;
         }
+
+        .experience-item-accordion {
+            border-bottom: 1px solid #ddd;
+            padding: 0.5rem 0;
+        }
+
+        .experience-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+            padding-left: 1rem;
+            color: #222;
+        }
+
+        .experience-item-accordion.open .experience-content {
+            max-height: 500px;
+            /* altura suficiente para exibir o conteúdo */
+            margin-top: 0.5rem;
+        }
+
+        .experience-title {
+            color: #2c3e50;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        body.dark-mode .experience-title {
+            color: #fff !important;
+        }
+
+        .experience-title:hover {
+            color: #3498db;
+        }
+
+        .experience-title i {
+            transition: transform 0.3s ease;
+        }
+
+        .experience-item-accordion.open .experience-title i {
+            transform: rotate(180deg);
+        }
+
+        .quote {
+            font-style: italic;
+            font-size: 0.9rem;
+            margin: 0.3rem 0 0.5rem 0;
+            padding-left: 0.7rem;
+            border-left: 3px solid #3498db;
+            color: #555;
+            /* deixei mais escuro e legível */
+        }
     </style>
 </head>
 
@@ -380,7 +431,7 @@
                         <p>Pós-graduação em Qualidade de Software</p>
                     </div>
                     <div class="education-item">
-                        <div class="company">UNINASSAU</div>
+                        <div class="company">Estacio</div>
                         <div class="date">2020-2022</div>
                         <p>Análise e Desenvolvimento de Sistemas</p>
                     </div>
@@ -391,50 +442,72 @@
                     <div class="experience-item">
                         <div class="company">Head de Qualidade - Rodobank</div>
                         <div class="date">2021 até Atualmente</div>
-                        <ul>
-                            <li>Liderança Técnica e Gestão de Equipe</li>
-                            <p class="quote">Coordenar e mentorar o time de QA, definindo métricas de qualidade e
-                                acompanhando KPIs</p>
-                            <p class="quote">Promover capacitação contínua da equipe em ferramentas (Postman,
-                                PHPUnit) e
-                                metodologias ágeis (Scrum/Kanban)</p>
+                        <div class="experience-item-accordion">
+                            <div class="experience-title">Liderança Técnica e Gestão de Equipe <i
+                                    class="fas fa-chevron-down"></i></div>
+                            <div class="experience-content">
+                                <p class="quote">Coordenar e mentorar o time de QA, definindo métricas de qualidade e
+                                    acompanhando KPIs</p>
+                                <p class="quote">Promover capacitação contínua da equipe em ferramentas (Postman,
+                                    PHPUnit) e metodologias ágeis (Scrum/Kanban)</p>
+                            </div>
+                        </div>
 
-                            <li>Automação e Execução de Testes</li>
-                            <p class="quote">Planejar, desenvolver e executar testes automatizados utilizando
-                                PHPUnit e
-                                Postman/Newman</p>
-                            <p class="quote">Realizar testes manuais em dispositivos móveis (Android/iOS) e validar
-                                cenários complexos (caixa-preta/branca)</p>
+                        <div class="experience-item-accordion">
+                            <div class="experience-title">Automação e Execução de Testes <i
+                                    class="fas fa-chevron-down"></i></div>
+                            <div class="experience-content">
+                                <p class="quote">Planejar, desenvolver e executar testes automatizados utilizando
+                                    PHPUnit e Postman/Newman</p>
+                                <p class="quote">Realizar testes manuais em dispositivos móveis (Android/iOS) e validar
+                                    cenários complexos (caixa-preta/branca)</p>
+                            </div>
+                        </div>
 
-                            <li>Integração Contínua e Entrega (CI/CD)</li>
-                            <p class="quote">Gerenciar pipelines de CI/CD para execução automatizada de testes,
-                                integrando Git/GitHub e Azure DevOps</p>
-                            <p class="quote">Garantir que novas features sejam validadas rapidamente, sem
-                                comprometer a
-                                estabilidade do sistema</p>
+                        <div class="experience-item-accordion">
+                            <div class="experience-title">Integração Contínua e Entrega (CI/CD) <i
+                                    class="fas fa-chevron-down"></i></div>
+                            <div class="experience-content">
+                                <p class="quote">Gerenciar pipelines de CI/CD para execução automatizada de testes,
+                                    integrando Git/GitHub e Azure DevOps</p>
+                                <p class="quote">Garantir que novas features sejam validadas rapidamente, sem
+                                    comprometer a estabilidade do sistema</p>
+                            </div>
+                        </div>
 
-                            <li>Gestão de Processos e Documentação</li>
-                            <p class="quote">Elaborar documentação técnica para integração de clientes e APIs usando
-                                Stoplight.</p>
-                            <p class="quote">Implementar políticas de qualidade em todas as etapas do ciclo de vida
-                                do
-                                produto, desde o planejamento até a entrega</p>
+                        <div class="experience-item-accordion">
+                            <div class="experience-title">Gestão de Processos e Documentação <i
+                                    class="fas fa-chevron-down"></i></div>
+                            <div class="experience-content">
+                                <p class="quote">Elaborar documentação técnica para integração de clientes e APIs usando
+                                    Stoplight.</p>
+                                <p class="quote">Implementar políticas de qualidade em todas as etapas do ciclo de vida
+                                    do produto, desde o planejamento até a entrega</p>
+                            </div>
+                        </div>
 
-                            <li>Colaboração Multidisciplinar</li>
-                            <p class="quote">Atuar como ponte entre times de desenvolvimento, produtos e atendimento
-                                ao
-                                cliente para resolver questões técnicas e de negócio</p>
-                            <p class="quote">Facilitar a integração de novos clientes à plataforma, assegurando
-                                aderência aos requisitos e SLA</p>
+                        <div class="experience-item-accordion">
+                            <div class="experience-title">Colaboração Multidisciplinar <i
+                                    class="fas fa-chevron-down"></i></div>
+                            <div class="experience-content">
+                                <p class="quote">Atuar como ponte entre times de desenvolvimento, produtos e atendimento
+                                    ao cliente para resolver questões técnicas e de negócio</p>
+                                <p class="quote">Facilitar a integração de novos clientes à plataforma, assegurando
+                                    aderência aos requisitos e SLA</p>
+                            </div>
+                        </div>
 
-                            <li>Inovação e Melhoria Contínua</li>
-                            <p class="quote">Identificar gaps nos processos e propor soluções (ex.: otimização de
-                                testes, adoção de novas ferramentas como DBeaver para análise de bancos de dados).
-                            </p>
-                            <p class="quote">Promover cultura de qualidade preventiva, com foco em reduzir
-                                retrabalho e
-                                aumentar a confiabilidade do produto</p>
-                        </ul>
+                        <div class="experience-item-accordion">
+                            <div class="experience-title">Inovação e Melhoria Contínua <i
+                                    class="fas fa-chevron-down"></i></div>
+                            <div class="experience-content">
+                                <p class="quote">Identificar gaps nos processos e propor soluções (ex.: otimização de
+                                    testes, adoção de novas ferramentas como DBeaver para análise de bancos de dados).
+                                </p>
+                                <p class="quote">Promover cultura de qualidade preventiva, com foco em reduzir
+                                    retrabalho e aumentar a confiabilidade do produto</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -461,6 +534,13 @@
 
     document.getElementById('printBtn').addEventListener('click', function () {
         window.print();
+    });
+
+    document.querySelectorAll('.experience-title').forEach(title => {
+        title.addEventListener('click', () => {
+            const accordion = title.parentElement;
+            accordion.classList.toggle('open');
+        });
     });
 </script>
 
