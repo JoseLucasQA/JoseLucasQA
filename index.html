@@ -89,8 +89,7 @@
             padding-bottom: 0.3rem;
         }
 
-        .skill-tag,
-        .certification-badge {
+        .skill-tag {
             background: #3498db;
             color: white;
             padding: 0.3rem 0.7rem;
@@ -124,7 +123,7 @@
             margin-bottom: 1.5rem;
         }
 
-        h3.skill-category {
+        .skill-category {
             margin-top: 1rem;
             font-size: 1rem;
             font-weight: 600;
@@ -154,11 +153,6 @@
             }
         }
 
-        body {
-            background: #f5f7fa;
-            color: #333;
-        }
-
         body.dark-theme {
             background: #1e1e2f;
             color: #ddd;
@@ -174,14 +168,12 @@
             background: #222;
         }
 
-        body.dark-theme .section,
-        body.dark-theme .card {
+        body.dark-theme .section {
             background: #2c2c44;
             box-shadow: none;
         }
 
-        body.dark-theme .skill-tag,
-        body.dark-theme .certification-badge {
+        body.dark-theme .skill-tag {
             background: #3498db;
         }
 
@@ -221,20 +213,6 @@
             flex-shrink: 0;
         }
 
-        .quote {
-            font-style: italic;
-            font-size: 0.9rem;
-            margin: 0.3rem 0 0.5rem 0;
-            padding-left: 0.7rem;
-            border-left: 3px solid #3498db;
-            color: #555;
-        }
-
-        body.dark-theme .quote {
-            color: #eee !important;
-            border-left-color: #9b59b6 !important;
-        }
-
         .experience-item-accordion {
             border-bottom: 1px solid #ddd;
             padding: 0.5rem 0;
@@ -264,7 +242,7 @@
         }
 
         body.dark-theme .experience-title {
-            color: #fff !important;
+            color: #fff;
         }
 
         .experience-title:hover {
@@ -299,7 +277,6 @@
         </header>
 
         <div class="columns">
-            <!-- Coluna Esquerda -->
             <div class="left-column">
                 <div class="section">
                     <h2 class="section-title">Contatos</h2>
@@ -329,11 +306,10 @@
                     </ul>
                 </div>
 
-                <!-- Experiência Profissional -->
                 <div class="section">
                     <h2 class="section-title">Experiência Profissional</h2>
-                    <div class="company"><strong>Head de Qualidade - Rodobank - 2021 / Atualmente</strong></div>
                     <div class="experience-item">
+                        <div class="company"><strong>Head de Qualidade - Rodobank - 2021 / Atualmente</strong></div>
                         <div class="experience-item-accordion">
                             <div class="experience-title">Liderança Técnica e Gestão de Equipe <i
                                     class="fas fa-chevron-down"></i></div>
@@ -402,9 +378,9 @@
                         </div>
                     </div>
                 </div>
-                <!-- Habilidades -->
+
                 <div class="section">
-                    <h2 class="section-title">Habilidades Sociais (Soft Skills)</h2>
+                    <h2 class="section-title">Soft Skills</h2>
                     <div class="skills-list">
                         <span class="skill-tag">Comunicação Eficaz</span>
                         <span class="skill-tag">Pensamento Crítico</span>
@@ -416,9 +392,8 @@
                     </div>
                 </div>
 
-                <!-- Habilidades Técnicas -->
                 <div class="section">
-                    <h2 class="section-title">Habilidades Técnicas (Hard Skills)</h2>
+                    <h2 class="section-title">Hard Skills</h2>
                     <h3 class="skill-category">Teste e Automação</h3>
                     <div class="skills-list">
                         <span class="skill-tag">PHPUnit</span>
@@ -443,7 +418,7 @@
                     <h3 class="skill-category">Metodologias e Processos</h3>
                     <div class="skills-list">
                         <span class="skill-tag">Scrum</span>
-                        <span class="skill-tag">Kanban ( Jira / Azure Devops )</span>
+                        <span class="skill-tag">Kanban (Jira/Azure Devops)</span>
                         <span class="skill-tag">Gestão de Qualidade End-to-End</span>
                         <span class="skill-tag">Documentação Técnica (Stoplight)</span>
                     </div>
@@ -456,9 +431,8 @@
                 </div>
             </div>
 
-            <!-- Coluna Direita -->
             <div class="right-column">
-                <section class="section">
+                <div class="section">
                     <h2 class="section-title">Formação Acadêmica</h2>
                     <div class="education-item">
                         <div class="institution">UNINASSAU</div>
@@ -470,35 +444,32 @@
                         <div class="date">2020-2022</div>
                         <p>Análise e Desenvolvimento de Sistemas</p>
                     </div>
-                </section>
+                </div>
 
-                <section class="section">
+                <div class="section">
                     <h2 class="section-title">Idiomas</h2>
                     <div class="skills-list">
-                        <span class="skill-tag">Ingles - Intermediário</span>
+                        <span class="skill-tag">Inglês - Intermediário</span>
                         <span class="skill-tag">Espanhol - Básico</span>
-                        <span class="skill-tag">Lingua Portuguesa - Nativa</span>
+                        <span class="skill-tag">Português - Nativo</span>
                     </div>
-                </section>
+                </div>
 
-                <section class="section">
-                    <h2 class="section-title">Certificações Técnicas</h2>
+                <div class="section">
+                    <h2 class="section-title">Certificações</h2>
                     <div class="skills-list">
-                        <span class="skill-tag">Cibersecurity Essentials - Cisco</span>
+                        <span class="skill-tag">Cybersecurity Essentials - Cisco</span>
                         <span class="skill-tag">Qualidade de Software - DIO</span>
-                        <span class="skill-tag">Unitários e TDD com PHPUnit - Udemy</span>
+                        <span class="skill-tag">Testes Unitários e TDD com PHPUnit - Udemy</span>
                         <span class="skill-tag">Robot Framework - RoboCamp6 - QANinja</span>
                         <span class="skill-tag">Programação com PHP - EspecializaTI</span>
                         <span class="skill-tag">PHP CSRs e Boas Práticas - EspecializaTI</span>
                         <span class="skill-tag">Projetos Ágeis com Scrum - DIO</span>
                         <span class="skill-tag">Estrutura de Dados e Algoritmos - DIO</span>
                     </div>
-                </section>
+                </div>
             </div>
         </div>
-    </div>
-    </div>
-    </div>
     </div>
 
     <script>
