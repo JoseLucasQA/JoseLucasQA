@@ -8,7 +8,7 @@
              src="https://github-readme-stats.vercel.app/api/top-langs/?username=JoseLucasQA&layout=compact&langs_count=7&theme=dark"/>
 </div>
     
-![snake gif](https://github.com/JoseLucasQA/JoseLucasQA/blob/output/github-contribution-grid-snake-dark.svg)
+![snake gif](https://github.com/JoseLucasQA/JoseLucasQA/blob/output/github-contribution-grid-snake.svg)
 
 # My Skills 
 
