@@ -50,16 +50,3 @@ Sou um profissional com sólida experiência liderando estratégias de garantia 
     <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/react/react-original.svg" width="40" height="40" alt="React"/>
     <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/vscode/vscode-original.svg" width="40" height="40" alt="VSCode"/>
 </div>
-
----
-
-## 📫 Contatos
-
-<div>
-    <a href="https://www.linkedin.com/in/joselucasqa" target="_blank">
-        <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-    </a>   
-    <a href="https://www.instagram.com/jlucas.msantos/" target="_blank">
-        <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"> 
-    </a>
-</div>
