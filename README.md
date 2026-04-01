@@ -24,7 +24,7 @@ Sou um profissional com sólida experiência liderando estratégias de garantia 
 
 - **Desenvolvimento Backend & Frontend:** Forte experiência como desenvolvedor backend, com domínio na criação de APIs e arquiteturas escaláveis. Conhecimento sólido no frontend para construção de interfaces dinâmicas.
 - **QA e Testes:** Planejamento, preparação e execução de testes em diferentes níveis (Unidade, Integração, Sistema e Aceite do Usuário). Experiência em homologações manuais e automatizadas.
-- **Linguagens de Programação:** PHP, JavaScript, Python, C, HTML, CSS.
+- **Linguagens de Programação:** PHP, JavaScript, Python, C.
 - **Frameworks e Arquiteturas:** Laravel, Vue.js, Lumen, React-Native, Bootstrap, Robot Framework, MVC e APIRest.
 - **DevOps, Ferramentas e Banco de Dados:** Docker, Jenkins, Azure DevOps, Git, Postman, Stoplight, DBeaver, MySQL.
 - **Sistemas Operacionais:** Windows, Linux, macOS, Android e iOS.
